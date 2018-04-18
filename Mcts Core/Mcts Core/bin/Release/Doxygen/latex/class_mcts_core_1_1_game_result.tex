@@ -1,0 +1,104 @@
+\hypertarget{class_mcts_core_1_1_game_result}{}\section{Mcts\+Core.\+Game\+Result Class Reference}
+\label{class_mcts_core_1_1_game_result}\index{Mcts\+Core.\+Game\+Result@{Mcts\+Core.\+Game\+Result}}
+
+
+Contains informations about the result of a game.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mcts_core_1_1_game_result_a8c9838394b760c3e23498f1033be9727}{Game\+Result}} (int \mbox{\hyperlink{class_mcts_core_1_1_game_result_a77b59124aac0ba1f2cb5e0e131510cea}{winner}}, double \mbox{\hyperlink{class_mcts_core_1_1_game_result_a9620ecf5f08cc09f1d2ea5bf5568c3cc}{relative\+Victory\+Points}})
+\begin{DoxyCompactList}\small\item\em Creates a new instance of the \mbox{\hyperlink{class_mcts_core_1_1_game_result}{Game\+Result}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_mcts_core_1_1_game_result_acd7dea3def32dcf23531395d28688a4e}{no\+Winner}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Represents a winner value in case of a draw. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_mcts_core_1_1_game_result_a77b59124aac0ba1f2cb5e0e131510cea}{winner}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the winner corresponding to this game result. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_mcts_core_1_1_game_result_a9620ecf5f08cc09f1d2ea5bf5568c3cc}{relative\+Victory\+Points}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the achieved relative victory points corresponding to this game result. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Contains informations about the result of a game. 
+
+
+
+Definition at line 7 of file Game\+Result.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mcts_core_1_1_game_result_a8c9838394b760c3e23498f1033be9727}\label{class_mcts_core_1_1_game_result_a8c9838394b760c3e23498f1033be9727}} 
+\index{Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}!Game\+Result@{Game\+Result}}
+\index{Game\+Result@{Game\+Result}!Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}}
+\subsubsection{\texorpdfstring{Game\+Result()}{GameResult()}}
+{\footnotesize\ttfamily Mcts\+Core.\+Game\+Result.\+Game\+Result (\begin{DoxyParamCaption}\item[{int}]{winner,  }\item[{double}]{relative\+Victory\+Points }\end{DoxyParamCaption})}
+
+
+
+Creates a new instance of the \mbox{\hyperlink{class_mcts_core_1_1_game_result}{Game\+Result}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em winner} & The player who has won the game. I case of a draw use no\+Winner.\\
+\hline
+{\em relative\+Victory\+Points} & The ratio of achieved victory points to maximal victory points.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Is thrown, if the given ratio is not in \mbox{[}0,1\mbox{]}.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 22 of file Game\+Result.\+cs.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_mcts_core_1_1_game_result_acd7dea3def32dcf23531395d28688a4e}\label{class_mcts_core_1_1_game_result_acd7dea3def32dcf23531395d28688a4e}} 
+\index{Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}!no\+Winner@{no\+Winner}}
+\index{no\+Winner@{no\+Winner}!Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}}
+\subsubsection{\texorpdfstring{no\+Winner}{noWinner}}
+{\footnotesize\ttfamily int Mcts\+Core.\+Game\+Result.\+no\+Winner\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Represents a winner value in case of a draw. 
+
+
+
+Definition at line 14 of file Game\+Result.\+cs.
+
+\mbox{\Hypertarget{class_mcts_core_1_1_game_result_a9620ecf5f08cc09f1d2ea5bf5568c3cc}\label{class_mcts_core_1_1_game_result_a9620ecf5f08cc09f1d2ea5bf5568c3cc}} 
+\index{Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}!relative\+Victory\+Points@{relative\+Victory\+Points}}
+\index{relative\+Victory\+Points@{relative\+Victory\+Points}!Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}}
+\subsubsection{\texorpdfstring{relative\+Victory\+Points}{relativeVictoryPoints}}
+{\footnotesize\ttfamily double Mcts\+Core.\+Game\+Result.\+relative\+Victory\+Points\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the achieved relative victory points corresponding to this game result. 
+
+
+
+Definition at line 37 of file Game\+Result.\+cs.
+
+\mbox{\Hypertarget{class_mcts_core_1_1_game_result_a77b59124aac0ba1f2cb5e0e131510cea}\label{class_mcts_core_1_1_game_result_a77b59124aac0ba1f2cb5e0e131510cea}} 
+\index{Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}!winner@{winner}}
+\index{winner@{winner}!Mcts\+Core\+::\+Game\+Result@{Mcts\+Core\+::\+Game\+Result}}
+\subsubsection{\texorpdfstring{winner}{winner}}
+{\footnotesize\ttfamily int Mcts\+Core.\+Game\+Result.\+winner\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the winner corresponding to this game result. 
+
+
+
+Definition at line 32 of file Game\+Result.\+cs.
+

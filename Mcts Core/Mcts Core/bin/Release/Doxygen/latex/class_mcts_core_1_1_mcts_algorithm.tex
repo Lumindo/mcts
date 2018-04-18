@@ -1,0 +1,116 @@
+\hypertarget{class_mcts_core_1_1_mcts_algorithm}{}\section{Mcts\+Core.\+Mcts\+Algorithm Class Reference}
+\label{class_mcts_core_1_1_mcts_algorithm}\index{Mcts\+Core.\+Mcts\+Algorithm@{Mcts\+Core.\+Mcts\+Algorithm}}
+
+
+Provides static methods to calculate optimal moves using the mcts algorithm.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interface_mcts_core_1_1_i_move}{I\+Move}} \mbox{\hyperlink{class_mcts_core_1_1_mcts_algorithm_a9c380699425b42217d10608b797b69f5}{calculate\+Optimal\+Move\+With\+Given\+Iterations}} (\mbox{\hyperlink{interface_mcts_core_1_1_i_mctsable_game_state}{I\+Mctsable\+Game\+State}} inital\+Game\+State, int \mbox{\hyperlink{class_mcts_core_1_1_mcts_algorithm_ae871efb153533b29759ac01fbb2845ab}{iterations}}, I\+Child\+Selection\+Service child\+Selection\+Service, I\+Final\+Child\+Selection\+Service final\+Child\+Selection\+Service)
+\begin{DoxyCompactList}\small\item\em Calculates the best move depending on the given game state and the given constraints. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{interface_mcts_core_1_1_i_move}{I\+Move}} \mbox{\hyperlink{class_mcts_core_1_1_mcts_algorithm_a3ba9b28883c962188035e2f16c1c43a0}{calculate\+Optimal\+Move\+In\+Given\+Time}} (\mbox{\hyperlink{interface_mcts_core_1_1_i_mctsable_game_state}{I\+Mctsable\+Game\+State}} inital\+Game\+State, int time, I\+Child\+Selection\+Service child\+Selection\+Service, I\+Final\+Child\+Selection\+Service final\+Child\+Selection\+Service)
+\begin{DoxyCompactList}\small\item\em Calculates the best move depending on the given game state and the given constraints. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_mcts_core_1_1_mcts_algorithm_ae871efb153533b29759ac01fbb2845ab}{iterations}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the number of done iterations until the final move was selected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides static methods to calculate optimal moves using the mcts algorithm. 
+
+
+
+Definition at line 11 of file Mcts\+Algorithm.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mcts_core_1_1_mcts_algorithm_a3ba9b28883c962188035e2f16c1c43a0}\label{class_mcts_core_1_1_mcts_algorithm_a3ba9b28883c962188035e2f16c1c43a0}} 
+\index{Mcts\+Core\+::\+Mcts\+Algorithm@{Mcts\+Core\+::\+Mcts\+Algorithm}!calculate\+Optimal\+Move\+In\+Given\+Time@{calculate\+Optimal\+Move\+In\+Given\+Time}}
+\index{calculate\+Optimal\+Move\+In\+Given\+Time@{calculate\+Optimal\+Move\+In\+Given\+Time}!Mcts\+Core\+::\+Mcts\+Algorithm@{Mcts\+Core\+::\+Mcts\+Algorithm}}
+\subsubsection{\texorpdfstring{calculate\+Optimal\+Move\+In\+Given\+Time()}{calculateOptimalMoveInGivenTime()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interface_mcts_core_1_1_i_move}{I\+Move}} Mcts\+Core.\+Mcts\+Algorithm.\+calculate\+Optimal\+Move\+In\+Given\+Time (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_mcts_core_1_1_i_mctsable_game_state}{I\+Mctsable\+Game\+State}}}]{inital\+Game\+State,  }\item[{int}]{time,  }\item[{I\+Child\+Selection\+Service}]{child\+Selection\+Service,  }\item[{I\+Final\+Child\+Selection\+Service}]{final\+Child\+Selection\+Service }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calculates the best move depending on the given game state and the given constraints. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inital\+Game\+State} & A game state.\\
+\hline
+{\em time} & A time in milliseconds until a move is finally selected.\\
+\hline
+{\em child\+Selection\+Service} & A child selection service which is used during the mcts algorithm.\\
+\hline
+{\em final\+Child\+Selection\+Service} & A child selection service to finally select a child.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Is thrown, if at least one of the given parameters is null.\\
+\hline
+{\em Argument\+Exception} & Is thrown, if the given game state is a terminal game state.\\
+\hline
+{\em Argument\+Exception} & Is thrown, if the given number of milliseconds is lower or equal than zero.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 111 of file Mcts\+Algorithm.\+cs.
+
+\mbox{\Hypertarget{class_mcts_core_1_1_mcts_algorithm_a9c380699425b42217d10608b797b69f5}\label{class_mcts_core_1_1_mcts_algorithm_a9c380699425b42217d10608b797b69f5}} 
+\index{Mcts\+Core\+::\+Mcts\+Algorithm@{Mcts\+Core\+::\+Mcts\+Algorithm}!calculate\+Optimal\+Move\+With\+Given\+Iterations@{calculate\+Optimal\+Move\+With\+Given\+Iterations}}
+\index{calculate\+Optimal\+Move\+With\+Given\+Iterations@{calculate\+Optimal\+Move\+With\+Given\+Iterations}!Mcts\+Core\+::\+Mcts\+Algorithm@{Mcts\+Core\+::\+Mcts\+Algorithm}}
+\subsubsection{\texorpdfstring{calculate\+Optimal\+Move\+With\+Given\+Iterations()}{calculateOptimalMoveWithGivenIterations()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interface_mcts_core_1_1_i_move}{I\+Move}} Mcts\+Core.\+Mcts\+Algorithm.\+calculate\+Optimal\+Move\+With\+Given\+Iterations (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_mcts_core_1_1_i_mctsable_game_state}{I\+Mctsable\+Game\+State}}}]{inital\+Game\+State,  }\item[{int}]{iterations,  }\item[{I\+Child\+Selection\+Service}]{child\+Selection\+Service,  }\item[{I\+Final\+Child\+Selection\+Service}]{final\+Child\+Selection\+Service }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Calculates the best move depending on the given game state and the given constraints. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inital\+Game\+State} & A game state.\\
+\hline
+{\em iterations} & A number of iterations until a move is finally selected.\\
+\hline
+{\em child\+Selection\+Service} & A child selection service which is used during the mcts algorithm.\\
+\hline
+{\em final\+Child\+Selection\+Service} & A child selection service to finally select a child.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Is thrown, if at least one of the given parameters is null.\\
+\hline
+{\em Argument\+Exception} & Is thrown, if the given game state is a terminal game state.\\
+\hline
+{\em Argument\+Exception} & Is thrown, if the number given iterations is lower or equal than zero.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 74 of file Mcts\+Algorithm.\+cs.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_mcts_core_1_1_mcts_algorithm_ae871efb153533b29759ac01fbb2845ab}\label{class_mcts_core_1_1_mcts_algorithm_ae871efb153533b29759ac01fbb2845ab}} 
+\index{Mcts\+Core\+::\+Mcts\+Algorithm@{Mcts\+Core\+::\+Mcts\+Algorithm}!iterations@{iterations}}
+\index{iterations@{iterations}!Mcts\+Core\+::\+Mcts\+Algorithm@{Mcts\+Core\+::\+Mcts\+Algorithm}}
+\subsubsection{\texorpdfstring{iterations}{iterations}}
+{\footnotesize\ttfamily int Mcts\+Core.\+Mcts\+Algorithm.\+iterations\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Gets the number of done iterations until the final move was selected. 
+
+
+
+Definition at line 62 of file Mcts\+Algorithm.\+cs.
+

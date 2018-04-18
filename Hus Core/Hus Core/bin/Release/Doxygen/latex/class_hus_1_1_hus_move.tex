@@ -1,0 +1,103 @@
+\hypertarget{class_hus_1_1_hus_move}{}\section{Hus.\+Hus\+Move Class Reference}
+\label{class_hus_1_1_hus_move}\index{Hus.\+Hus\+Move@{Hus.\+Hus\+Move}}
+
+
+Provides properties and methods for a move of the H\+US game system.  
+
+
+Inheritance diagram for Hus.\+Hus\+Move\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_hus_1_1_hus_move}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hus_1_1_hus_move_ad4b8bf3e479f52ac7eb4013a2fd8aba3}{Hus\+Move}} (int player\+Who\+Does\+The\+Move, int next\+Player, int pit)
+\begin{DoxyCompactList}\small\item\em Creates a move of the H\+US game system. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_hus_1_1_hus_move_abb8febf6f2c28b760d3c652f05322eb0}{is\+Equal\+To}} (I\+Move move)
+\begin{DoxyCompactList}\small\item\em Checks, if the two moves are equal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_hus_1_1_hus_move_a935e6906c622a72f35f59b2d6f5dfaac}\label{class_hus_1_1_hus_move_a935e6906c622a72f35f59b2d6f5dfaac}} 
+int {\bfseries next\+Player}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_hus_1_1_hus_move_a0e65e0455f6ec5151e5aa50e1b442efd}\label{class_hus_1_1_hus_move_a0e65e0455f6ec5151e5aa50e1b442efd}} 
+int {\bfseries pit}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_hus_1_1_hus_move_ae5a6a7619fb4c28114ef8d2fe466ac72}\label{class_hus_1_1_hus_move_ae5a6a7619fb4c28114ef8d2fe466ac72}} 
+int {\bfseries player\+Who\+Does\+The\+Move}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides properties and methods for a move of the H\+US game system. 
+
+
+
+Definition at line 8 of file Hus\+Move.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_hus_1_1_hus_move_ad4b8bf3e479f52ac7eb4013a2fd8aba3}\label{class_hus_1_1_hus_move_ad4b8bf3e479f52ac7eb4013a2fd8aba3}} 
+\index{Hus\+::\+Hus\+Move@{Hus\+::\+Hus\+Move}!Hus\+Move@{Hus\+Move}}
+\index{Hus\+Move@{Hus\+Move}!Hus\+::\+Hus\+Move@{Hus\+::\+Hus\+Move}}
+\subsubsection{\texorpdfstring{Hus\+Move()}{HusMove()}}
+{\footnotesize\ttfamily Hus.\+Hus\+Move.\+Hus\+Move (\begin{DoxyParamCaption}\item[{int}]{player\+Who\+Does\+The\+Move,  }\item[{int}]{next\+Player,  }\item[{int}]{pit }\end{DoxyParamCaption})}
+
+
+
+Creates a move of the H\+US game system. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Who\+Does\+The\+Move} & The player who does the move.\\
+\hline
+{\em next\+Player} & The player who is next.\\
+\hline
+{\em pit} & The pit on the hus board that corresponds to the move.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & Is thrown, if an invalid player was given.\\
+\hline
+{\em Argument\+Exception} & Is thrown, if an invalid pit was given.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 17 of file Hus\+Move.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_hus_1_1_hus_move_abb8febf6f2c28b760d3c652f05322eb0}\label{class_hus_1_1_hus_move_abb8febf6f2c28b760d3c652f05322eb0}} 
+\index{Hus\+::\+Hus\+Move@{Hus\+::\+Hus\+Move}!is\+Equal\+To@{is\+Equal\+To}}
+\index{is\+Equal\+To@{is\+Equal\+To}!Hus\+::\+Hus\+Move@{Hus\+::\+Hus\+Move}}
+\subsubsection{\texorpdfstring{is\+Equal\+To()}{isEqualTo()}}
+{\footnotesize\ttfamily bool Hus.\+Hus\+Move.\+is\+Equal\+To (\begin{DoxyParamCaption}\item[{I\+Move}]{move }\end{DoxyParamCaption})}
+
+
+
+Checks, if the two moves are equal. 
+
+This is the case if and only if the given move is a move of the H\+US game system and all three properties are equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em move} & A move.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Is thrown, if the given move is null.\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 38 of file Hus\+Move.\+cs.
+

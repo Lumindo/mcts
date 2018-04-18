@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDE50A67-8C4B-4128-B5A1-AF0120E982BF}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GameTreeCore</RootNamespace>
+    <AssemblyName>GameTree Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Child Selection Services\ChildSelectionServiceAlphaAMAF.cs" />
+    <Compile Include="Child Selection Services\ChildSelectionServiceAMAF.cs" />
+    <Compile Include="Child Selection Services\ChildSelectionServiceRAVE.cs" />
+    <Compile Include="Child Selection Services\ChildSelectionServiceSilverAlphaAMAF.cs" />
+    <Compile Include="Child Selection Services\ChildSelectionServiceUCT.cs" />
+    <Compile Include="Final Child Selection Services\FinalChildSelectionServiceMAX.cs" />
+    <Compile Include="Final Child Selection Services\FinalChildSelectionServiceROBUST.cs" />
+    <Compile Include="Final Child Selection Services\FinalChildSelectionServiceSECURE.cs" />
+    <Compile Include="Interfaces\IChildSelectionService.cs" />
+    <Compile Include="Interfaces\IFinalChildSelectionService.cs" />
+    <Compile Include="Interfaces\IGameTreeNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Child Selection Services\" />
+    <Folder Include="Final Child Selection Services\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>

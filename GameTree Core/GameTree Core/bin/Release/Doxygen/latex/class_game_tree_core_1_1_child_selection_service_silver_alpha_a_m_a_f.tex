@@ -1,0 +1,102 @@
+\hypertarget{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f}{}\section{Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF Class Reference}
+\label{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f}\index{Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}}
+
+
+A child selection service based on the alpha A\+M\+AF algorithm from David Silver.  
+
+
+Inheritance diagram for Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_a9f0b3952f37fab8b91e69950263934a7}{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}} (double bias)
+\begin{DoxyCompactList}\small\item\em Creates a new instance of the \mbox{\hyperlink{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f}{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}} class. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_a205abab62a400c3aa5bf9830047249dd}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns a string with informations about the child selection service. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}} \mbox{\hyperlink{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_af06bf48345ee92a0057b6cc9dbd47a9e}{child\+Selection}} (\mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}} node, double exploration\+Constant)
+\begin{DoxyCompactList}\small\item\em Selects the best child of the given node via the alpha A\+M\+AF algorithm from Silver. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A child selection service based on the alpha A\+M\+AF algorithm from David Silver. 
+
+
+
+Definition at line 8 of file Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_a9f0b3952f37fab8b91e69950263934a7}\label{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_a9f0b3952f37fab8b91e69950263934a7}} 
+\index{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}!Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}}
+\index{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}!Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}}
+\subsubsection{\texorpdfstring{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F()}{ChildSelectionServiceSilverAlphaAMAF()}}
+{\footnotesize\ttfamily Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF (\begin{DoxyParamCaption}\item[{double}]{bias }\end{DoxyParamCaption})}
+
+
+
+Creates a new instance of the \mbox{\hyperlink{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f}{Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bias} & A bias.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_af06bf48345ee92a0057b6cc9dbd47a9e}\label{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_af06bf48345ee92a0057b6cc9dbd47a9e}} 
+\index{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}!child\+Selection@{child\+Selection}}
+\index{child\+Selection@{child\+Selection}!Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}}
+\subsubsection{\texorpdfstring{child\+Selection()}{childSelection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}} Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+child\+Selection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}}}]{node,  }\item[{double}]{exploration\+Constant }\end{DoxyParamCaption})}
+
+
+
+Selects the best child of the given node via the alpha A\+M\+AF algorithm from Silver. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & A node in the game tree.\\
+\hline
+{\em exploration\+Constant} & A tunable exploration constant.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Is thrown, if the given node is null.\\
+\hline
+{\em Invalid\+Operation\+Exception} & Is thrown, if no child nodes are available.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_game_tree_core_1_1_i_child_selection_service}{Game\+Tree\+Core.\+I\+Child\+Selection\+Service}}.
+
+
+
+Definition at line 34 of file Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+cs.
+
+\mbox{\Hypertarget{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_a205abab62a400c3aa5bf9830047249dd}\label{class_game_tree_core_1_1_child_selection_service_silver_alpha_a_m_a_f_a205abab62a400c3aa5bf9830047249dd}} 
+\index{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF@{Game\+Tree\+Core\+::\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+AF}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Game\+Tree\+Core.\+Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns a string with informations about the child selection service. 
+
+
+
+Definition at line 23 of file Child\+Selection\+Service\+Silver\+Alpha\+A\+M\+A\+F.\+cs.
+

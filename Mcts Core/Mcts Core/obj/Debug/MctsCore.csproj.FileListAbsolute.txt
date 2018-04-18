@@ -1,0 +1,6 @@
+/Users/bjoern/Projects/Mcts Core/Mcts Core/bin/Debug/Mcts Core.dll
+/Users/bjoern/Projects/Mcts Core/Mcts Core/bin/Debug/Mcts Core.pdb
+/Users/bjoern/Projects/Mcts Core/Mcts Core/bin/Debug/GameTree Core.dll
+/Users/bjoern/Projects/Mcts Core/Mcts Core/obj/Debug/MctsCore.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/Mcts Core/Mcts Core/obj/Debug/Mcts Core.dll
+/Users/bjoern/Projects/Mcts Core/Mcts Core/obj/Debug/Mcts Core.pdb

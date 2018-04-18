@@ -1,0 +1,72 @@
+\hypertarget{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e}{}\section{Game\+Tree\+Core.\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE Class Reference}
+\label{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e}\index{Game\+Tree\+Core.\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE@{Game\+Tree\+Core.\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE}}
+Inheritance diagram for Game\+Tree\+Core.\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override string \mbox{\hyperlink{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e_a4286392c639860e2f188f853b43f8103}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns a string with informations about the child selection service. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}} \mbox{\hyperlink{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e_a766a9bcee0b76d7f12e3093dc315bcc6}{final\+Child\+Selection}} (\mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Selects the root child with the highest relative reward. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file Final\+Child\+Selection\+Service\+S\+E\+C\+U\+R\+E.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e_a766a9bcee0b76d7f12e3093dc315bcc6}\label{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e_a766a9bcee0b76d7f12e3093dc315bcc6}} 
+\index{Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE@{Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE}!final\+Child\+Selection@{final\+Child\+Selection}}
+\index{final\+Child\+Selection@{final\+Child\+Selection}!Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE@{Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE}}
+\subsubsection{\texorpdfstring{final\+Child\+Selection()}{finalChildSelection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}} Game\+Tree\+Core.\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+R\+E.\+final\+Child\+Selection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_game_tree_core_1_1_i_game_tree_node}{I\+Game\+Tree\+Node}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Selects the root child with the highest relative reward. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & A node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The root child with the highest relative reward.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Is thrown, if the given node is null.\\
+\hline
+{\em Invalid\+Operation\+Exception} & Is thrown, if no child nodes are available.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_game_tree_core_1_1_i_final_child_selection_service}{Game\+Tree\+Core.\+I\+Final\+Child\+Selection\+Service}}.
+
+
+
+Definition at line 20 of file Final\+Child\+Selection\+Service\+S\+E\+C\+U\+R\+E.\+cs.
+
+\mbox{\Hypertarget{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e_a4286392c639860e2f188f853b43f8103}\label{class_game_tree_core_1_1_final_child_selection_service_s_e_c_u_r_e_a4286392c639860e2f188f853b43f8103}} 
+\index{Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE@{Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE@{Game\+Tree\+Core\+::\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+RE}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Game\+Tree\+Core.\+Final\+Child\+Selection\+Service\+S\+E\+C\+U\+R\+E.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns a string with informations about the child selection service. 
+
+
+
+Definition at line 9 of file Final\+Child\+Selection\+Service\+S\+E\+C\+U\+R\+E.\+cs.
+

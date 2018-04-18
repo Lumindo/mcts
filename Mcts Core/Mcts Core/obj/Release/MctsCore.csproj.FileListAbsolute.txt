@@ -1,0 +1,7 @@
+/Users/bjoern/Projects/Mcts/MctsCore/bin/Release/Mcts Core.dll
+/Users/bjoern/Projects/Mcts/MctsCore/obj/Release/MctsCore.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/Mcts/MctsCore/obj/Release/Mcts Core.dll
+/Users/bjoern/Projects/Mcts Core/Mcts Core/bin/Release/Mcts Core.dll
+/Users/bjoern/Projects/Mcts Core/Mcts Core/bin/Release/GameTree Core.dll
+/Users/bjoern/Projects/Mcts Core/Mcts Core/obj/Release/MctsCore.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/Mcts Core/Mcts Core/obj/Release/Mcts Core.dll

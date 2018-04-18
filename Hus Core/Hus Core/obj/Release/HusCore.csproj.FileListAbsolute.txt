@@ -1,0 +1,10 @@
+/Users/bjoern/Projects/Hus/Hus/bin/Release/Hus Core.dll
+/Users/bjoern/Projects/Hus/Hus/bin/Release/MctsCore.dll
+/Users/bjoern/Projects/Hus/Hus/obj/Release/HusCore.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/Hus/Hus/obj/Release/Hus Core.dll
+/Users/bjoern/Projects/Hus Core/Hus Core/bin/Release/Hus Core.dll
+/Users/bjoern/Projects/Hus Core/Hus Core/bin/Release/Mcts Core.dll
+/Users/bjoern/Projects/Hus Core/Hus Core/bin/Release/GameTree Core.dll
+/Users/bjoern/Projects/Hus Core/Hus Core/obj/Release/HusCore.csprojResolveAssemblyReference.cache
+/Users/bjoern/Projects/Hus Core/Hus Core/obj/Release/HusCore.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/Hus Core/Hus Core/obj/Release/Hus Core.dll

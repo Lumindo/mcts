@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETPortable,Version=v4.5,Profile=Profile111": []
+  },
+  "packageFolders": {
+    "/Users/bjoern/.nuget/packages/": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "/Users/bjoern/Projects/Mcts Core/Mcts Core/MctsCore.csproj",
+      "projectName": "MctsCore",
+      "projectPath": "/Users/bjoern/Projects/Mcts Core/Mcts Core/MctsCore.csproj",
+      "projectJsonPath": "/Users/bjoern/Projects/Mcts Core/Mcts Core/project.json",
+      "packagesPath": "/Users/bjoern/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/bjoern/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "portable45-net45+win8+wpa81": {}
+    }
+  }
+}
