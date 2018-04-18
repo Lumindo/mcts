@@ -1,0 +1,11 @@
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Debug/TestMctsWithHus.exe.config
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Debug/TestMctsWithHus.exe
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Debug/TestMctsWithHus.pdb
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Debug/Hus Core.dll
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Debug/Mcts Core.dll
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Debug/Mcts Core.pdb
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Debug/TestMctsWithHus.csprojResolveAssemblyReference.cache
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Debug/TestMctsWithHus.csproj.TestMctsWithHus.exe.config
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Debug/TestMctsWithHus.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Debug/TestMctsWithHus.exe
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Debug/TestMctsWithHus.pdb

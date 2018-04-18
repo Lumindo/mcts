@@ -1,0 +1,8 @@
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Release/TestMctsWithHus.exe.config
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Release/TestMctsWithHus.exe
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Release/GameTree Core.dll
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Release/Hus Core.dll
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/bin/Release/Mcts Core.dll
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Release/TestMctsWithHus.exe.config
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Release/TestMctsWithHus.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/TestMctsWithHus/TestMctsWithHus/obj/x86/Release/TestMctsWithHus.exe
