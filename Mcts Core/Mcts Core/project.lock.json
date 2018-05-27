@@ -13,10 +13,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "/Users/bjoern/Projects/Mcts Core/Mcts Core/MctsCore.csproj",
+      "projectUniqueName": "/Users/bjoern/Projects/GitHub/mcts/Mcts Core/Mcts Core/MctsCore.csproj",
       "projectName": "MctsCore",
-      "projectPath": "/Users/bjoern/Projects/Mcts Core/Mcts Core/MctsCore.csproj",
-      "projectJsonPath": "/Users/bjoern/Projects/Mcts Core/Mcts Core/project.json",
+      "projectPath": "/Users/bjoern/Projects/GitHub/mcts/Mcts Core/Mcts Core/MctsCore.csproj",
+      "projectJsonPath": "/Users/bjoern/Projects/GitHub/mcts/Mcts Core/Mcts Core/project.json",
       "packagesPath": "/Users/bjoern/.nuget/packages/",
       "projectStyle": "ProjectJson",
       "configFilePaths": [

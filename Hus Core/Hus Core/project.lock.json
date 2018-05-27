@@ -3645,10 +3645,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "/Users/bjoern/Projects/Hus Core/Hus Core/HusCore.csproj",
+      "projectUniqueName": "/Users/bjoern/Projects/GitHub/mcts/Hus Core/Hus Core/HusCore.csproj",
       "projectName": "HusCore",
-      "projectPath": "/Users/bjoern/Projects/Hus Core/Hus Core/HusCore.csproj",
-      "projectJsonPath": "/Users/bjoern/Projects/Hus Core/Hus Core/project.json",
+      "projectPath": "/Users/bjoern/Projects/GitHub/mcts/Hus Core/Hus Core/HusCore.csproj",
+      "projectJsonPath": "/Users/bjoern/Projects/GitHub/mcts/Hus Core/Hus Core/project.json",
       "packagesPath": "/Users/bjoern/.nuget/packages/",
       "projectStyle": "ProjectJson",
       "configFilePaths": [

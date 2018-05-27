@@ -3,6 +3,9 @@ using System.Collections.ObjectModel;
 
 namespace MctsCore {
     internal sealed class MctsChanceNode : MctsNode {
+		private static readonly int _FLOATING_PRECISSION = 6;
+
+
         public MctsChanceNode(MctsNode previousNode, INonDeterministicMove move, int phasingPlayer, ReadOnlyCollection<double> childDistribution) : base(previousNode, move, phasingPlayer) {
             if(previousNode == null || move == null || childDistribution == null) throw new ArgumentNullException("CLASS: MctsChanceNode, CONSTRUCTOR - at least one of the given parameter is null!");
 
@@ -18,7 +21,7 @@ namespace MctsCore {
                 checksum += childDistribution[i];
                 }
 
-            if(checksum != 1) throw new ArgumentException("CLASS: MctsChanceNode, CONSTRUCTOR - invalid distribution (sum has to be 1)!");
+			if(Math.Abs(checksum - 1.0) > Math.Pow(10, _FLOATING_PRECISSION)) throw new ArgumentException("CLASS: MctsChanceNode, CONSTRUCTOR - invalid distribution (sum has to be 1)!");
 
             this.childDistribution = childDistribution;
             }

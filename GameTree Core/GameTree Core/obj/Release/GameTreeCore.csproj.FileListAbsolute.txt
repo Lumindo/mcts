@@ -4,3 +4,7 @@
 /Users/bjoern/Projects/GameTree Core/GameTree Core/bin/Release/GameTree Core.dll
 /Users/bjoern/Projects/GameTree Core/GameTree Core/obj/Release/GameTreeCore.csproj.CoreCompileInputs.cache
 /Users/bjoern/Projects/GameTree Core/GameTree Core/obj/Release/GameTree Core.dll
+/Users/bjoern/Projects/GitHub/mcts/GameTree Core/GameTree Core/bin/Release/GameTree Core.dll
+/Users/bjoern/Projects/GitHub/mcts/GameTree Core/GameTree Core/obj/Release/GameTreeCore.csprojResolveAssemblyReference.cache
+/Users/bjoern/Projects/GitHub/mcts/GameTree Core/GameTree Core/obj/Release/GameTreeCore.csproj.CoreCompileInputs.cache
+/Users/bjoern/Projects/GitHub/mcts/GameTree Core/GameTree Core/obj/Release/GameTree Core.dll
