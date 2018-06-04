@@ -1,5 +1,0 @@
-/Users/bjoern/Projects/Hus/Hus/bin/Release/Hus.dll
-/Users/bjoern/Projects/Hus/Hus/bin/Release/MctsCore.dll
-/Users/bjoern/Projects/Hus/Hus/obj/Release/Hus.csprojResolveAssemblyReference.cache
-/Users/bjoern/Projects/Hus/Hus/obj/Release/Hus.csproj.CoreCompileInputs.cache
-/Users/bjoern/Projects/Hus/Hus/obj/Release/Hus.dll
